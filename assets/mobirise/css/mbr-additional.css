@@ -1091,81 +1091,84 @@ section.lazy-placeholder:after {
   color: #0097dc;
   text-shadow: -2px -2px 2px rgba(255, 255, 255, 0.1), 2px 2px 2px rgba(0, 0, 0, 0.5);
 }
-.cid-so9LJLwRth {
+.cid-soJWbonEcF {
   padding-top: 90px;
   padding-bottom: 90px;
   background-image: url("../../../assets/images/squa-background-site.png");
 }
-.cid-so9LJLwRth .card-img {
+.cid-soJWbonEcF .card-img {
   background-color: #fff;
 }
-.cid-so9LJLwRth .card {
+.cid-soJWbonEcF .card {
   align-self: stretch;
 }
-.cid-so9LJLwRth .card-box {
+.cid-soJWbonEcF .card-box {
   padding: 2rem;
   background-color: #2d2f33;
 }
-.cid-so9LJLwRth h4 {
+.cid-soJWbonEcF h4 {
   font-weight: 500;
   margin-bottom: 0;
   text-align: left;
   text-shadow: -1px -1px 1px rgba(255, 255, 255, 0.1), 1px 1px 1px rgba(0, 0, 0, 0.5);
 }
-.cid-so9LJLwRth p {
-  text-align: left;
+.cid-soJWbonEcF p {
+  text-align: justify;
 }
-.cid-so9LJLwRth .mbr-text {
-  color: #ffd602;
+.cid-soJWbonEcF .mbr-text P {
+  text-align: justify;
 }
-.cid-so9LJLwRth .card-wrapper {
+.cid-soJWbonEcF .mbr-text {
+  color: #0097dc;
+}
+.cid-soJWbonEcF .card-wrapper {
   height: 100%;
   box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
   transition: box-shadow 0.3s;
 }
-.cid-so9LJLwRth .card-wrapper:hover {
+.cid-soJWbonEcF .card-wrapper:hover {
   box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.05);
   transition: box-shadow 0.3s;
 }
 @media (min-width: 992px) {
-  .cid-so9LJLwRth .my-col {
+  .cid-soJWbonEcF .my-col {
     flex: 0 0 20%;
     max-width: 20%;
     padding: 15px;
     -webkit-flex: 0 0 20%;
   }
 }
-.cid-so9LJLwRth .card-title {
+.cid-soJWbonEcF .card-title {
   color: #0097dc;
 }
-.cid-soaYbvTJ6C {
+.cid-soJWSEGTUR {
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: #2d2f33;
 }
 @media (max-width: 767px) {
-  .cid-soaYbvTJ6C .content {
+  .cid-soJWSEGTUR .content {
     text-align: center;
   }
-  .cid-soaYbvTJ6C .content > div:not(:last-child) {
+  .cid-soJWSEGTUR .content > div:not(:last-child) {
     margin-bottom: 2rem;
   }
 }
-.cid-soaYbvTJ6C .map {
+.cid-soJWSEGTUR .map {
   height: 18.75rem;
 }
 @media (max-width: 767px) {
-  .cid-soaYbvTJ6C .footer-lower .copyright {
+  .cid-soJWSEGTUR .footer-lower .copyright {
     margin-bottom: 1rem;
     text-align: center;
   }
 }
-.cid-soaYbvTJ6C .footer-lower hr {
+.cid-soJWSEGTUR .footer-lower hr {
   margin: 1rem 0;
   border-color: #fff;
   opacity: .05;
 }
-.cid-soaYbvTJ6C .footer-lower .social-list {
+.cid-soJWSEGTUR .footer-lower .social-list {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
@@ -1175,37 +1178,37 @@ section.lazy-placeholder:after {
   -webkit-flex-wrap: wrap;
   flex-wrap: wrap;
 }
-.cid-soaYbvTJ6C .footer-lower .social-list .mbr-iconfont-social {
+.cid-soJWSEGTUR .footer-lower .social-list .mbr-iconfont-social {
   font-size: 1.3rem;
   color: #fff;
 }
-.cid-soaYbvTJ6C .footer-lower .social-list .soc-item {
+.cid-soJWSEGTUR .footer-lower .social-list .soc-item {
   margin: 0 .5rem;
 }
-.cid-soaYbvTJ6C .footer-lower .social-list a {
+.cid-soJWSEGTUR .footer-lower .social-list a {
   margin: 0;
   opacity: .5;
   -webkit-transition: .2s linear;
   transition: .2s linear;
 }
-.cid-soaYbvTJ6C .footer-lower .social-list a:hover {
+.cid-soJWSEGTUR .footer-lower .social-list a:hover {
   opacity: 1;
 }
 @media (max-width: 767px) {
-  .cid-soaYbvTJ6C .footer-lower .social-list {
+  .cid-soJWSEGTUR .footer-lower .social-list {
     -webkit-justify-content: center;
     justify-content: center;
   }
 }
-.cid-soaYbvTJ6C .google-map {
+.cid-soJWSEGTUR .google-map {
   height: 25rem;
   position: relative;
 }
-.cid-soaYbvTJ6C .google-map iframe {
+.cid-soJWSEGTUR .google-map iframe {
   height: 100%;
   width: 100%;
 }
-.cid-soaYbvTJ6C .google-map [data-state-details] {
+.cid-soJWSEGTUR .google-map [data-state-details] {
   color: #6b6763;
   font-family: Montserrat;
   height: 1.5em;
@@ -1217,14 +1220,15 @@ section.lazy-placeholder:after {
   top: 50%;
   width: 100%;
 }
-.cid-soaYbvTJ6C .google-map[data-state] {
+.cid-soJWSEGTUR .google-map[data-state] {
   background: #e9e5dc;
 }
-.cid-soaYbvTJ6C .google-map[data-state="loading"] [data-state-details] {
+.cid-soJWSEGTUR .google-map[data-state="loading"] [data-state-details] {
   display: none;
 }
-.cid-soaYbvTJ6C P {
+.cid-soJWSEGTUR P {
   color: #0097dc;
+  text-align: left;
 }
 .cid-soncYW7NEa H1 {
   color: #ffd602;

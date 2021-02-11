@@ -1,0 +1,2 @@
+# SQUA
+Squad Ukraine Community

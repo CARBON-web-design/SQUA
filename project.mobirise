@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "SQUA",
-    "currentPage": "index.html",
+    "currentPage": "shop_squa.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -79,11 +79,24 @@
     "siteUrl": "https://squa.games/",
     "gdpr": false,
     "pwa-switcher": false,
-    "uniqCompNum": 158,
+    "uniqCompNum": 160,
     "versionPublish": "4.12.4",
     "screenshot": "screenshot.png",
     "robotsText": "User-agent: *\nDisallow: /cgi-bin\n",
-    "cookiesAlert": false
+    "cookiesAlert": false,
+    "mcShopcart": {
+      "iconSize": "30",
+      "iconColor": "#3d8eb9",
+      "backColor": "#f7da64",
+      "topOffset": "120",
+      "rightOffset": "20",
+      "siteWidth": "1150",
+      "counterSize": "12",
+      "counterColor": "#FFFFFF",
+      "counterBack": "#F97352",
+      "checkoutButton": "Перевірте з",
+      "email": "akarbishev@gmail.com"
+    }
   },
   "pages": {
     "index.html": {
@@ -8118,7 +8131,8 @@
       "settings": {
         "meta_descr": "Магазин",
         "title": "SC-shop",
-        "order": 3
+        "order": 3,
+        "header_custom": ""
       },
       "components": [
         {
@@ -9245,16 +9259,19 @@
               "color": "#ffd602"
             },
             ".shop-item-price,.price-block": {
-              "color": "#d2e8fe"
+              "color": "#ffd602"
             },
             ".card-description DIV": {
               "text-align": "left"
             },
             ".card-description P": {
               "text-align": "left"
+            },
+            ".oldprice,.price-block": {
+              "color": "#ff7f9f"
             }
           },
-          "_customHTML": "<section class=\"mbr-gallery\" group=\"Shops\" plugins=\"mobirise-shop,Gallery\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" title=\"Верх\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"9\" inline>\n        <input type=\"range\" title=\"Низ\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"9\" inline>\n        <input type=\"color\" title=\"Фон в продаже\" name=\"saleBg\" value=\"#149dcc\">\n        <input type=\"color\" title=\"Цвет кнопки карточки\" name=\"cardBottom\" value=\"#132231\">\n        <input type=\"color\" title=\"Фон боковой панели\" name=\"sidebarBg\" value=\"#0787c2\">\n\n        <input type=\"color\" title=\"Цвет фона\" name=\"bgColor\" value=\"#09121c\">\n\n        <input type=\"shop\" title=\"Магазин\" name=\"shop\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <!-- <div class=\"big-container\"> -->\n    <div class=\"container\">\n        <div mbr-shop=\"shop\" class=\"mbr-shop\" show-sidebar mbr-shop-minimal sorting></div>\n    </div>\n\n</section>",
+          "_customHTML": "<section class=\"mbr-gallery\" group=\"Shops\" plugins=\"mobirise-shop,Gallery\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" title=\"Верх\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"9\" inline>\n        <input type=\"range\" title=\"Низ\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"9\" inline>\n        <input type=\"color\" title=\"Фон в продаже\" name=\"saleBg\" value=\"#149dcc\">\n        <input type=\"color\" title=\"Цвет кнопки карточки\" name=\"cardBottom\" value=\"#132231\">\n        <input type=\"color\" title=\"Фон боковой панели\" name=\"sidebarBg\" value=\"#0787c2\">\n\n        <input type=\"color\" title=\"Цвет фона\" name=\"bgColor\" value=\"#09121c\">\n\n        <input type=\"shop\" title=\"Магазин\" name=\"shop\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <!-- <div class=\"big-container\"> -->\n    <div class=\"container\">\n        <div mbr-shop=\"shop\" class=\"mbr-shop\" show-sidebar mbr-shop-minimal shop__showsidebar=\"\" sorting></div>\n    </div>\n\n</section>",
           "_anchor": "shop1-4d",
           "_isUserblock": true,
           "_sourceTheme": "commercem4",
@@ -9295,24 +9312,24 @@
             "sidebar2": "Діапазон цін",
             "sidebar3": "Фільтер",
             "shop__filtersTextStyle": "display-4",
-            "filter_by_d": "<a class=\"btn btn-sm btn-primary disableSortButton\" href=\"\">Сортировка по умолчанию</a>",
-            "filter_by_pu": "<a class=\"btn btn-sm btn-primary-outline disableSortButton\" href=\"\">Цена: от низкой к высокой</a>",
-            "filter_by_pd": "<a class=\"btn btn-sm btn-primary-outline disableSortButton\" href=\"\">Цена: от высокой к низкой</a>",
+            "filter_by_d": "",
+            "filter_by_pu": "<a class=\"btn btn-sm btn-primary-outline\" href=\"\">Ціна: &lt;</a>",
+            "filter_by_pd": "<a class=\"btn btn-sm btn-primary-outline disableSortButton\" href=\"\">Ціна: &gt;&nbsp;</a>Ю",
             "price_range": "<a class=\"btn btn-sm btn-primary\" data-app-btn=\"true\" href=\"\">Фильтр</a>",
             "price_range_reset": "<a class=\"btn btn-sm btn-secondary\" data-app-btn=\"true\" href=\"\">Показать все</a>",
             "shop": [
               {
                 "tags": "launcher",
                 "bestSeller": false,
-                "onSale": true,
+                "onSale": false,
                 "oldPrice": false,
                 "itemTitle": "<b>GRENADE LANCHER</b>",
                 "itemDescription": "<p>GP-33 MOD \"ASFALL\" GRENADE LANCHER<br></p><ul><li>Subscribers Exclusive</li></ul> <br>GP-33 MOD Гранатомет є 40мм шестизарядний револьвер типу гранатомет виробництва Берінг прикладної технології . Він має ефективну дальність польоту 80 метрів і постріли, які вибухають при ударі.<p></p><p><br></p><p>\n</p><div>\n</div><div>Product code: GP33MAGL</div><p></p>",
                 "itemPriceTitle": "From: ",
                 "itemPrice": "$6.00",
-                "oldPriceValue": "$146",
-                "sale": "SALE",
-                "button": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-placeholder=\"Введите Текст\" class=\"btn display-7 btn-secondary\">Купити зараз!</a>",
+                "oldPriceValue": "$7",
+                "sale": "Акція!",
+                "button": "<a data-app-btn=\"true\" href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_cart&amount=6.0&item_name=Custom+Item&currency_code=USD\" data-app-placeholder=\"Введите Текст\" class=\"btn display-7 btn-secondary\">Купити зараз!</a>",
                 "image": "@PROJECT_PATH@/assets/images/gp33-mod-ashfall-grenade-launcher-258x154-258x154.png",
                 "thumb": "@PROJECT_PATH@/assets/images/gp33-mod-ashfall-grenade-launcher-258x154-258x154-258x154.png",
                 "customStyle5": "display-5",
@@ -9320,7 +9337,7 @@
                 "customStyleSale": "display-4",
                 "customStyleTags": "display-4",
                 "caption": "Введите заголовок здесь",
-                "active": true,
+                "active": false,
                 "alt": "",
                 "title": ""
               },
@@ -9373,13 +9390,13 @@
               {
                 "tags": "multi-tool",
                 "bestSeller": false,
-                "onSale": false,
-                "oldPrice": false,
+                "onSale": true,
+                "oldPrice": true,
                 "itemTitle": "Коричневые очки",
                 "itemDescription": "Повседневная обувь (свяжитесь с нами для уточнения размера)<br><br><ul><li>Легкая текстурированная ткань</li> <li>Скругленный V-образный вырез</li> <li>Pom pom trims</li> <li>Регулярная подгонка - по размеру</li></ul> <br>Duis auctor hendrerit nisi, at lacinia ex vulputate quis. Suspendisse convallis iaculis tortor, quis mattis lectus rutrum a.<br><br>Product code: <b>385DDF5p</b>",
                 "itemPriceTitle": "From: ",
                 "itemPrice": "$4.00",
-                "oldPriceValue": "$146",
+                "oldPriceValue": "$5.00",
                 "sale": "SALE",
                 "button": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-placeholder=\"Введите Текст\" class=\"btn display-7 btn-secondary\">Купити зараз!</a>",
                 "image": "@PROJECT_PATH@/assets/images/pyro_ryt_bloodline_multitool-258x154.png",
@@ -9396,13 +9413,13 @@
               {
                 "tags": "multi-tool",
                 "bestSeller": false,
-                "onSale": false,
-                "oldPrice": false,
+                "onSale": true,
+                "oldPrice": true,
                 "itemTitle": "Коричневые очки",
                 "itemDescription": "Повседневная обувь (свяжитесь с нами для уточнения размера)<br><br><ul><li>Легкая текстурированная ткань</li> <li>Скругленный V-образный вырез</li> <li>Pom pom trims</li> <li>Регулярная подгонка - по размеру</li></ul> <br>Duis auctor hendrerit nisi, at lacinia ex vulputate quis. Suspendisse convallis iaculis tortor, quis mattis lectus rutrum a.<br><br>Product code: <b>385DDF5p</b>",
                 "itemPriceTitle": "From: ",
                 "itemPrice": "$4.00",
-                "oldPriceValue": "$146",
+                "oldPriceValue": "$5.00",
                 "sale": "SALE",
                 "button": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-placeholder=\"Введите Текст\" class=\"btn display-7 btn-secondary\">Купити зараз!</a>",
                 "image": "@PROJECT_PATH@/assets/images/pyro_ryt_ghost_multitool-258x154.png",
@@ -9419,15 +9436,15 @@
               {
                 "tags": "multi-tool",
                 "bestSeller": false,
-                "onSale": false,
-                "oldPrice": false,
+                "onSale": true,
+                "oldPrice": true,
                 "itemTitle": "Коричневые очки",
                 "itemDescription": "Повседневная обувь (свяжитесь с нами для уточнения размера)<br><br><ul><li>Легкая текстурированная ткань</li> <li>Скругленный V-образный вырез</li> <li>Pom pom trims</li> <li>Регулярная подгонка - по размеру</li></ul> <br>Duis auctor hendrerit nisi, at lacinia ex vulputate quis. Suspendisse convallis iaculis tortor, quis mattis lectus rutrum a.<br><br>Product code: <b>385DDF5p</b>",
                 "itemPriceTitle": "From: ",
                 "itemPrice": "$4.00",
-                "oldPriceValue": "$146",
+                "oldPriceValue": "$5.00",
                 "sale": "SALE",
-                "button": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-placeholder=\"Введите Текст\" class=\"btn display-7 btn-secondary\">Купити зараз!</a>",
+                "button": "<a data-app-btn=\"true\" href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_cart&amount=5.0&item_name=Custom+Item&currency_code=USD\" data-app-placeholder=\"Введите Текст\" class=\"btn display-7 btn-secondary\">Купити зараз!</a>",
                 "image": "@PROJECT_PATH@/assets/images/pyro_ryt_mirage_multitool-258x154.png",
                 "thumb": "@PROJECT_PATH@/assets/images/pyro-ryt-mirage-multitool-258x154-258x154.png",
                 "customStyle5": "display-5",
@@ -9435,7 +9452,7 @@
                 "customStyleSale": "display-4",
                 "customStyleTags": "display-4",
                 "caption": "Введите заголовок здесь",
-                "active": false,
+                "active": true,
                 "alt": "",
                 "title": ""
               },

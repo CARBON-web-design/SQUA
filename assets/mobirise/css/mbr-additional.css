@@ -7036,11 +7036,15 @@ section.lazy-placeholder:after {
 }
 .cid-syB3X5lT4l .shop-item-price,
 .cid-syB3X5lT4l .price-block {
-  color: #d2e8fe;
+  color: #ffd602;
 }
 .cid-syB3X5lT4l .card-description DIV {
   text-align: left;
 }
 .cid-syB3X5lT4l .card-description P {
   text-align: left;
+}
+.cid-syB3X5lT4l .oldprice,
+.cid-syB3X5lT4l .price-block {
+  color: #ff7f9f;
 }

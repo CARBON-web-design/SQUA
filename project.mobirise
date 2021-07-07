@@ -82,14 +82,25 @@
     "robotsSwitcher": true,
     "sitemapSwitcher": true,
     "sitemapSwitcherAuto": "on",
-    "siteUrl": "https://squa.games/",
+    "siteUrl": "https://carbon-web-design.github.io/SQUA/",
     "gdpr": false,
     "pwa-switcher": false,
     "uniqCompNum": 160,
     "versionPublish": "5.3.9",
     "screenshot": "screenshot.png",
     "robotsText": "User-agent: *\nDisallow: /cgi-bin\n",
-    "cookiesAlert": false,
+    "cookiesAlert": {
+      "customDialogSelector": false,
+      "colorText": "#424a4d",
+      "colorBg": "#eaeff1",
+      "colorButton": "",
+      "colorLink": "#424a4d",
+      "underlineLink": true,
+      "opacity": "72",
+      "opacityOverlay": "80",
+      "text": "We use cookies to give you the best experience. Read our <a href='privacy.html'>cookie policy</a>.",
+      "textButton": "Agree"
+    },
     "mcShopcart": {
       "iconSize": "30",
       "iconColor": "#3d8eb9",
@@ -103,7 +114,8 @@
       "checkoutButton": "Перевірте з",
       "email": "akarbishev@gmail.com"
     },
-    "mbrsiteDomain": "arja7wgfs6"
+    "mbrsiteDomain": "lqobluec15",
+    "site_lang": "UA"
   },
   "pages": {
     "index.html": {

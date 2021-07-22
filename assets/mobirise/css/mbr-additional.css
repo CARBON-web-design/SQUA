@@ -1090,87 +1090,84 @@ section.lazy-placeholder:after {
   width: 100%;
   max-width: 700px;
 }
-.cid-soJWbonEcF {
+.cid-sDTBxMjkPk {
   padding-top: 90px;
   padding-bottom: 90px;
-  background-image: url("../../../assets/images/squa-background-site.png");
+  background-image: url("../../../assets/images/squa-background-site-1.png");
 }
-.cid-soJWbonEcF .card-img {
+.cid-sDTBxMjkPk .card-img {
   background-color: #fff;
 }
-.cid-soJWbonEcF .card {
+.cid-sDTBxMjkPk .card {
   align-self: stretch;
 }
-.cid-soJWbonEcF .card-box {
+.cid-sDTBxMjkPk .card-box {
   padding: 2rem;
   background-color: #2d2f33;
 }
-.cid-soJWbonEcF h4 {
+.cid-sDTBxMjkPk h4 {
   font-weight: 500;
   margin-bottom: 0;
   text-align: left;
   text-shadow: -1px -1px 1px rgba(255, 255, 255, 0.1), 1px 1px 1px rgba(0, 0, 0, 0.5);
 }
-.cid-soJWbonEcF p {
+.cid-sDTBxMjkPk p {
   text-align: justify;
 }
-.cid-soJWbonEcF .mbr-text P {
+.cid-sDTBxMjkPk .mbr-text P {
   text-align: justify;
 }
-.cid-soJWbonEcF .mbr-text {
+.cid-sDTBxMjkPk .mbr-text {
   color: #0097dc;
 }
-.cid-soJWbonEcF .card-wrapper {
+.cid-sDTBxMjkPk .card-wrapper {
   height: 100%;
   box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
   transition: box-shadow 0.3s;
 }
-.cid-soJWbonEcF .card-wrapper:hover {
+.cid-sDTBxMjkPk .card-wrapper:hover {
   box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.05);
   transition: box-shadow 0.3s;
 }
 @media (min-width: 992px) {
-  .cid-soJWbonEcF .my-col {
+  .cid-sDTBxMjkPk .my-col {
     flex: 0 0 20%;
     max-width: 20%;
     padding: 15px;
     -webkit-flex: 0 0 20%;
   }
 }
-.cid-soJWbonEcF .card-title {
+.cid-sDTBxMjkPk .card-title {
   color: #0097dc;
 }
-.cid-soJWbonEcF P {
-  color: #0787c2;
-}
-.cid-soJWSEGTUR {
+.cid-sDTBwJix4b {
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: #2d2f33;
 }
 @media (max-width: 767px) {
-  .cid-soJWSEGTUR .content {
+  .cid-sDTBwJix4b .content {
     text-align: center;
   }
-  .cid-soJWSEGTUR .content > div:not(:last-child) {
+  .cid-sDTBwJix4b .content > div:not(:last-child) {
     margin-bottom: 2rem;
   }
 }
-.cid-soJWSEGTUR .map {
+.cid-sDTBwJix4b .map {
   height: 18.75rem;
 }
 @media (max-width: 767px) {
-  .cid-soJWSEGTUR .footer-lower .copyright {
+  .cid-sDTBwJix4b .footer-lower .copyright {
     margin-bottom: 1rem;
     text-align: center;
   }
 }
-.cid-soJWSEGTUR .footer-lower hr {
+.cid-sDTBwJix4b .footer-lower hr {
   margin: 1rem 0;
   border-color: #fff;
   opacity: .05;
 }
-.cid-soJWSEGTUR .footer-lower .social-list {
+.cid-sDTBwJix4b .footer-lower .social-list {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
@@ -1180,37 +1177,37 @@ section.lazy-placeholder:after {
   -webkit-flex-wrap: wrap;
   flex-wrap: wrap;
 }
-.cid-soJWSEGTUR .footer-lower .social-list .mbr-iconfont-social {
+.cid-sDTBwJix4b .footer-lower .social-list .mbr-iconfont-social {
   font-size: 1.3rem;
   color: #fff;
 }
-.cid-soJWSEGTUR .footer-lower .social-list .soc-item {
+.cid-sDTBwJix4b .footer-lower .social-list .soc-item {
   margin: 0 .5rem;
 }
-.cid-soJWSEGTUR .footer-lower .social-list a {
+.cid-sDTBwJix4b .footer-lower .social-list a {
   margin: 0;
   opacity: .5;
   -webkit-transition: .2s linear;
   transition: .2s linear;
 }
-.cid-soJWSEGTUR .footer-lower .social-list a:hover {
+.cid-sDTBwJix4b .footer-lower .social-list a:hover {
   opacity: 1;
 }
 @media (max-width: 767px) {
-  .cid-soJWSEGTUR .footer-lower .social-list {
+  .cid-sDTBwJix4b .footer-lower .social-list {
     -webkit-justify-content: center;
     justify-content: center;
   }
 }
-.cid-soJWSEGTUR .google-map {
+.cid-sDTBwJix4b .google-map {
   height: 25rem;
   position: relative;
 }
-.cid-soJWSEGTUR .google-map iframe {
+.cid-sDTBwJix4b .google-map iframe {
   height: 100%;
   width: 100%;
 }
-.cid-soJWSEGTUR .google-map [data-state-details] {
+.cid-sDTBwJix4b .google-map [data-state-details] {
   color: #6b6763;
   font-family: Montserrat;
   height: 1.5em;
@@ -1222,15 +1219,14 @@ section.lazy-placeholder:after {
   top: 50%;
   width: 100%;
 }
-.cid-soJWSEGTUR .google-map[data-state] {
+.cid-sDTBwJix4b .google-map[data-state] {
   background: #e9e5dc;
 }
-.cid-soJWSEGTUR .google-map[data-state="loading"] [data-state-details] {
+.cid-sDTBwJix4b .google-map[data-state="loading"] [data-state-details] {
   display: none;
 }
-.cid-soJWSEGTUR P {
+.cid-sDTBwJix4b P {
   color: #0097dc;
-  text-align: left;
 }
 .cid-soncYW7NEa H1 {
   color: #0097dc;
@@ -3061,84 +3057,84 @@ section.lazy-placeholder:after {
   transition: 0.2s background ease-in-out;
   background: linear-gradient(to left, #0097dc, #2d2f33) !important;
 }
-.cid-sondsTtAp2 {
+.cid-sDTC5hmSAZ {
   padding-top: 90px;
   padding-bottom: 90px;
-  background-image: url("../../../assets/images/squa-background-site.png");
+  background-image: url("../../../assets/images/squa-background-site-1.png");
 }
-.cid-sondsTtAp2 .card-img {
+.cid-sDTC5hmSAZ .card-img {
   background-color: #fff;
 }
-.cid-sondsTtAp2 .card {
+.cid-sDTC5hmSAZ .card {
   align-self: stretch;
 }
-.cid-sondsTtAp2 .card-box {
+.cid-sDTC5hmSAZ .card-box {
   padding: 2rem;
   background-color: #2d2f33;
 }
-.cid-sondsTtAp2 h4 {
+.cid-sDTC5hmSAZ h4 {
   font-weight: 500;
   margin-bottom: 0;
   text-align: left;
   text-shadow: -1px -1px 1px rgba(255, 255, 255, 0.1), 1px 1px 1px rgba(0, 0, 0, 0.5);
 }
-.cid-sondsTtAp2 p {
+.cid-sDTC5hmSAZ p {
   text-align: justify;
 }
-.cid-sondsTtAp2 .mbr-text P {
+.cid-sDTC5hmSAZ .mbr-text P {
   text-align: justify;
 }
-.cid-sondsTtAp2 .mbr-text {
-  color: #cccccc;
+.cid-sDTC5hmSAZ .mbr-text {
+  color: #0097dc;
 }
-.cid-sondsTtAp2 .card-wrapper {
+.cid-sDTC5hmSAZ .card-wrapper {
   height: 100%;
   box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
   transition: box-shadow 0.3s;
 }
-.cid-sondsTtAp2 .card-wrapper:hover {
+.cid-sDTC5hmSAZ .card-wrapper:hover {
   box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.05);
   transition: box-shadow 0.3s;
 }
 @media (min-width: 992px) {
-  .cid-sondsTtAp2 .my-col {
+  .cid-sDTC5hmSAZ .my-col {
     flex: 0 0 20%;
     max-width: 20%;
     padding: 15px;
     -webkit-flex: 0 0 20%;
   }
 }
-.cid-sondsTtAp2 .card-title {
-  color: #ffd602;
+.cid-sDTC5hmSAZ .card-title {
+  color: #0097dc;
 }
-.cid-sondsWesKp {
+.cid-sDTC5WLl4Z {
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: #2d2f33;
 }
 @media (max-width: 767px) {
-  .cid-sondsWesKp .content {
+  .cid-sDTC5WLl4Z .content {
     text-align: center;
   }
-  .cid-sondsWesKp .content > div:not(:last-child) {
+  .cid-sDTC5WLl4Z .content > div:not(:last-child) {
     margin-bottom: 2rem;
   }
 }
-.cid-sondsWesKp .map {
+.cid-sDTC5WLl4Z .map {
   height: 18.75rem;
 }
 @media (max-width: 767px) {
-  .cid-sondsWesKp .footer-lower .copyright {
+  .cid-sDTC5WLl4Z .footer-lower .copyright {
     margin-bottom: 1rem;
     text-align: center;
   }
 }
-.cid-sondsWesKp .footer-lower hr {
+.cid-sDTC5WLl4Z .footer-lower hr {
   margin: 1rem 0;
   border-color: #fff;
   opacity: .05;
 }
-.cid-sondsWesKp .footer-lower .social-list {
+.cid-sDTC5WLl4Z .footer-lower .social-list {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
@@ -3148,37 +3144,37 @@ section.lazy-placeholder:after {
   -webkit-flex-wrap: wrap;
   flex-wrap: wrap;
 }
-.cid-sondsWesKp .footer-lower .social-list .mbr-iconfont-social {
+.cid-sDTC5WLl4Z .footer-lower .social-list .mbr-iconfont-social {
   font-size: 1.3rem;
   color: #fff;
 }
-.cid-sondsWesKp .footer-lower .social-list .soc-item {
+.cid-sDTC5WLl4Z .footer-lower .social-list .soc-item {
   margin: 0 .5rem;
 }
-.cid-sondsWesKp .footer-lower .social-list a {
+.cid-sDTC5WLl4Z .footer-lower .social-list a {
   margin: 0;
   opacity: .5;
   -webkit-transition: .2s linear;
   transition: .2s linear;
 }
-.cid-sondsWesKp .footer-lower .social-list a:hover {
+.cid-sDTC5WLl4Z .footer-lower .social-list a:hover {
   opacity: 1;
 }
 @media (max-width: 767px) {
-  .cid-sondsWesKp .footer-lower .social-list {
+  .cid-sDTC5WLl4Z .footer-lower .social-list {
     -webkit-justify-content: center;
     justify-content: center;
   }
 }
-.cid-sondsWesKp .google-map {
+.cid-sDTC5WLl4Z .google-map {
   height: 25rem;
   position: relative;
 }
-.cid-sondsWesKp .google-map iframe {
+.cid-sDTC5WLl4Z .google-map iframe {
   height: 100%;
   width: 100%;
 }
-.cid-sondsWesKp .google-map [data-state-details] {
+.cid-sDTC5WLl4Z .google-map [data-state-details] {
   color: #6b6763;
   font-family: Montserrat;
   height: 1.5em;
@@ -3190,13 +3186,13 @@ section.lazy-placeholder:after {
   top: 50%;
   width: 100%;
 }
-.cid-sondsWesKp .google-map[data-state] {
+.cid-sDTC5WLl4Z .google-map[data-state] {
   background: #e9e5dc;
 }
-.cid-sondsWesKp .google-map[data-state="loading"] [data-state-details] {
+.cid-sDTC5WLl4Z .google-map[data-state="loading"] [data-state-details] {
   display: none;
 }
-.cid-sondsWesKp P {
+.cid-sDTC5WLl4Z P {
   color: #0097dc;
 }
 .cid-sondsXmCoF .navbar {
@@ -4427,7 +4423,7 @@ section.lazy-placeholder:after {
 .cid-sondIhBs4Z {
   padding-top: 90px;
   padding-bottom: 90px;
-  background-image: url("../../../assets/images/star-citizen-origin-100-2000x1000.jpg");
+  background-image: url("../../../assets/images/20210103003646-1-2000x1125.jpg");
 }
 .cid-sondIhBs4Z .mbr-text {
   text-align: justify;

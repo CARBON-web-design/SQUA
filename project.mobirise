@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "SQUA",
-    "currentPage": "arma.html",
+    "currentPage": "allgame.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -72,9 +72,15 @@
         "name": "UA Army Labels",
         "url": null,
         "file": "@PROJECT_PATH@/fonts/UA%20Army%20Labels/font.ttf"
+      },
+      {
+        "css": "'UA Army Labels'",
+        "name": "UA Army Labels",
+        "url": null,
+        "file": "@PROJECT_PATH@/fonts/UA%20Army%20Labels/font.ttf"
       }
     ],
-    "favicon": "@PROJECT_PATH@/assets/images/squa-logo-favi-128x106-1.png",
+    "favicon": "@PROJECT_PATH@/assets/images/arma-meta-128x96.png",
     "imageResize": true,
     "cssOptimize": false,
     "lazyLoad": false,
@@ -86,9 +92,9 @@
     "gdpr": false,
     "pwa-switcher": false,
     "uniqCompNum": 160,
-    "versionPublish": "5.3.9",
+    "versionPublish": "5.3.10",
     "screenshot": "screenshot.png",
-    "robotsText": "User-agent: *\nDisallow: /cgi-bin\n",
+    "robotsText": "User-agent: *\nDisallow: /cgi-bin\n\n",
     "cookiesAlert": {
       "customDialogSelector": false,
       "colorText": "#424a4d",
@@ -114,7 +120,7 @@
       "checkoutButton": "Перевірте з",
       "email": "akarbishev@gmail.com"
     },
-    "mbrsiteDomain": "lqobluec15",
+    "mbrsiteDomain": "ibq4uu8fgl",
     "site_lang": "UA"
   },
   "pages": {
@@ -578,10 +584,14 @@
             "H3": {
               "color": "#0097dc",
               "text-shadow": "-2px -2px 2px rgba(255, 255, 255, 0.1), 2px 2px 2px rgba(0, 0, 0, 0.5)"
+            },
+            "img": {
+              "width": "100%",
+              "max-width": "700px"
             }
           },
           "_name": "header2",
-          "_customHTML": "<section group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n         'mbr-fullscreen': fullScreen,\n         'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Полный экран\" name=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Сверху\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Снизу\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Стрелка\" name=\"showArrow\" checked>\n        <input type=\"checkbox\" title=\"Название\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Подзаголовок\" name=\"showSubTitle\" checked>\n        <input type=\"checkbox\" title=\"Текст\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Кнопки\" name=\"showButtons\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Фоновое изображение\" value=\"../_images/background4.jpg\" parallax>\n            <input type=\"color\" title=\"Цвет фона\" value=\"#073B4C\">\n            <input type=\"video\" title=\"Фоновое видео\" value=\"https://youtu.be/WJ5f-71rAII?list=PLdp5-7jr7yomq53e4sEeaVHiAzI47cmq8\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Наложение\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Цвет наложения\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Прозрачность\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container align-center\">\n        <div class=\"row justify-content-md-center\">\n            <div class=\"mbr-white col-md-10\">\n                <img src=\"@PROJECT_PATH@/assets/images/squa-logo.png\" alt title>\n                <h1 class=\"mbr-section-title mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\">ОДНА З НАЙБІЛЬШИХ УКРАЇНСЬКИХ &nbsp;<br></h1>\n                <h3 class=\"mbr-section-subtitle align-center mbr-light pb-3 mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showSubTitle\"><b>ІГРОВИХ СПІЛЬНОТ</b></h3>\n                <p class=\"mbr-text pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\"><b>\n                    Долучайся вже сьогодні!</b></p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-md btn-danger\" href=\"https://discord.gg/TGZHBfX\" data-app-placeholder=\"Введите Текст\" target=\"_blank\"><span class=\"socicon socicon-discord mbr-iconfont mbr-iconfont-btn\"></span>DISCORD</a>\n                    <a class=\"btn btn-md btn-secondary\" href=\"https://www.facebook.com/groups/squadukraine\" data-app-placeholder=\"Введите Текст\" target=\"_blank\"><span class=\"fa fa-facebook-square mbr-iconfont mbr-iconfont-btn\"></span>FACEBOOK</a></div>\n            </div>\n        </div>\n    </div>\n    <div mbr-if=\"showArrow\" class=\"mbr-arrow hidden-sm-down\" aria-hidden=\"true\">\n        <a href=\"#next\">\n            <i class=\"mbri-down mbr-iconfont\"></i>\n        </a>\n    </div>\n</section>",
+          "_customHTML": "<section group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n         'mbr-fullscreen': fullScreen,\n         'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Полный экран\" name=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Сверху\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Снизу\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Стрелка\" name=\"showArrow\" checked>\n        <input type=\"checkbox\" title=\"Название\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Подзаголовок\" name=\"showSubTitle\" checked>\n        <input type=\"checkbox\" title=\"Текст\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Кнопки\" name=\"showButtons\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Фоновое изображение\" value=\"../_images/background4.jpg\" parallax>\n            <input type=\"color\" title=\"Цвет фона\" value=\"#073B4C\">\n            <input type=\"video\" title=\"Фоновое видео\" value=\"https://youtu.be/WJ5f-71rAII?list=PLdp5-7jr7yomq53e4sEeaVHiAzI47cmq8\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Наложение\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Цвет наложения\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Прозрачность\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container align-center\">\n        <div class=\"row justify-content-md-center\">\n            <div class=\"mbr-white col-md-10\">\n                <img src=\"@PROJECT_PATH@/assets/images/squa-logo.png\" alt title>\n                <h1 class=\"mbr-section-title mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\">ОДНА З НАЙБІЛЬШИХ УКРАЇНСЬКИХ<br></h1>\n                <h3 class=\"mbr-section-subtitle align-center mbr-light pb-3 mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showSubTitle\"><b>ІГРОВИХ СПІЛЬНОТ</b></h3>\n                <p class=\"mbr-text pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\"><b>\n                    Долучайся вже сьогодні!</b></p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-md btn-danger\" href=\"https://discord.gg/TGZHBfX\" data-app-placeholder=\"Введите Текст\" target=\"_blank\"><span class=\"socicon socicon-discord mbr-iconfont mbr-iconfont-btn\"></span>DISCORD</a>\n                    <a class=\"btn btn-md btn-secondary\" href=\"https://www.facebook.com/groups/squadukraine\" data-app-placeholder=\"Введите Текст\" target=\"_blank\"><span class=\"fa fa-facebook-square mbr-iconfont mbr-iconfont-btn\"></span>FACEBOOK</a></div>\n            </div>\n        </div>\n    </div>\n    <div mbr-if=\"showArrow\" class=\"mbr-arrow hidden-sm-down\" aria-hidden=\"true\">\n        <a href=\"#next\">\n            <i class=\"mbri-down mbr-iconfont\"></i>\n        </a>\n    </div>\n</section>",
           "_cid": "so9LDhu5AM",
           "_anchor": "header2-1",
           "_PHPplaceholders": [],
@@ -813,6 +823,10 @@
             "H3": {
               "color": "#ffd602",
               "text-shadow": "-2px -2px 2px rgba(255, 255, 255, 0.1), 2px 2px 2px rgba(0, 0, 0, 0.5)"
+            },
+            "img": {
+              "width": "100%",
+              "max-width": "700px"
             }
           },
           "_name": "header2",
@@ -1975,6 +1989,10 @@
             "H3": {
               "color": "#0097dc",
               "text-shadow": "-2px -2px 2px rgba(255, 255, 255, 0.1), 2px 2px 2px rgba(0, 0, 0, 0.5)"
+            },
+            "img": {
+              "width": "100%",
+              "max-width": "700px"
             }
           },
           "_name": "header2",
@@ -3193,6 +3211,10 @@
             "H3": {
               "color": "#0097dc",
               "text-shadow": "-2px -2px 2px rgba(255, 255, 255, 0.1), 2px 2px 2px rgba(0, 0, 0, 0.5)"
+            },
+            "img": {
+              "width": "100%",
+              "max-width": "700px"
             }
           },
           "_name": "header2",
@@ -3275,6 +3297,14 @@
             },
             ".mbr-text, .mbr-section-btn": {
               "color": "#ffd602"
+            },
+            "H1": {
+              "color": "#ffd602",
+              "text-shadow": "-2px -2px 2px rgba(255, 255, 255, 0.1), 2px 2px 2px rgba(0, 0, 0, 0.5)"
+            },
+            "H3": {
+              "color": "#0097dc",
+              "text-shadow": "-2px -2px 2px rgba(255, 255, 255, 0.1), 2px 2px 2px rgba(0, 0, 0, 0.5)"
             }
           },
           "_name": "header7",
@@ -3359,6 +3389,14 @@
             },
             ".mbr-text, .mbr-section-btn": {
               "color": "#ffd602"
+            },
+            "H1": {
+              "color": "#ffd602",
+              "text-shadow": "-2px -2px 2px rgba(255, 255, 255, 0.1), 2px 2px 2px rgba(0, 0, 0, 0.5)"
+            },
+            "H3": {
+              "color": "#0097dc",
+              "text-shadow": "-2px -2px 2px rgba(255, 255, 255, 0.1), 2px 2px 2px rgba(0, 0, 0, 0.5)"
             }
           },
           "_name": "header7",
@@ -3445,6 +3483,14 @@
             },
             ".mbr-text, .mbr-section-btn": {
               "color": "#ffd602"
+            },
+            "H1": {
+              "color": "#ffd602",
+              "text-shadow": "-2px -2px 2px rgba(255, 255, 255, 0.1), 2px 2px 2px rgba(0, 0, 0, 0.5)"
+            },
+            "H3": {
+              "color": "#0097dc",
+              "text-shadow": "-2px -2px 2px rgba(255, 255, 255, 0.1), 2px 2px 2px rgba(0, 0, 0, 0.5)"
             }
           },
           "_name": "header7",
@@ -3531,6 +3577,14 @@
             },
             ".mbr-text, .mbr-section-btn": {
               "color": "#ffd602"
+            },
+            "H1": {
+              "color": "#ffd602",
+              "text-shadow": "-2px -2px 2px rgba(255, 255, 255, 0.1), 2px 2px 2px rgba(0, 0, 0, 0.5)"
+            },
+            "H3": {
+              "color": "#0097dc",
+              "text-shadow": "-2px -2px 2px rgba(255, 255, 255, 0.1), 2px 2px 2px rgba(0, 0, 0, 0.5)"
             }
           },
           "_name": "header7",
@@ -4439,6 +4493,10 @@
             "H3": {
               "color": "#0097dc",
               "text-shadow": "-2px -2px 2px rgba(255, 255, 255, 0.1), 2px 2px 2px rgba(0, 0, 0, 0.5)"
+            },
+            "img": {
+              "width": "100%",
+              "max-width": "700px"
             }
           },
           "_name": "header2",
@@ -5685,6 +5743,10 @@
             "H3": {
               "color": "#0097dc",
               "text-shadow": "-2px -2px 2px rgba(255, 255, 255, 0.1), 2px 2px 2px rgba(0, 0, 0, 0.5)"
+            },
+            "img": {
+              "width": "100%",
+              "max-width": "700px"
             }
           },
           "_name": "header2",
@@ -6931,6 +6993,10 @@
             "H3": {
               "color": "#0097dc",
               "text-shadow": "-2px -2px 2px rgba(255, 255, 255, 0.1), 2px 2px 2px rgba(0, 0, 0, 0.5)"
+            },
+            "img": {
+              "width": "100%",
+              "max-width": "700px"
             }
           },
           "_name": "header2",
